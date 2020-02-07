@@ -1,0 +1,92 @@
+body{
+  background-image:url(https://cdn.wallpaper.com/main/styles/responsive_1460w_scale/s3/scoop_magnetscopyright-bompas-parr-8_0.jpg?itok=c2-ZmUPv);
+    background-size:contain;
+}
+#Title{
+font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+ .center {
+  margin: auto;
+  width: 80%;  
+}
+div{
+  background-color:white;
+  height:860px;
+  border-radius:60px;
+}
+#survey-form{
+  text-align:center;
+}
+#description{
+  text-align: center;
+  font-size:25px;
+}
+#name-label{
+  font-size:20px;
+}
+#name{  
+  height:25px;
+  font-size:15px;
+  width:40%;
+}
+
+#email-label{
+  font-size:20px;
+}
+#email{
+  height:25px;
+  font-size:15px;
+  width:40%;
+  
+}
+#number-label{
+  font-size:20px;
+}
+#number{
+  height:25px;
+  font-size:15px;
+  width:20%;
+  
+}
+#dropdown{
+  height:25px;
+  font-size:15px;
+  width:25%;
+  border-radius:30px;
+}
+.dropdown{
+  font-size:20px;
+}
+.size{
+  font-size:20px;
+}
+.input-field{
+  position:relative;
+  top:35px;
+  height:50px;
+  width:30%
+}
+#submit{
+  font-family: 'Orbitron', sans-serif;
+  position :relative;
+  top:50px;
+  background-color:BLack;
+  color:white;
+  height:30px;
+  width:30%;
+  border:2px solid black;
+  border-radius:30px;
+}
+@media only screen and (max-width: 600px) {
+  div {
+    height:1000px;
+    width:400px;
+  }
+  #dropdown{
+    width:40%;
+  }
+  .center {
+  width: 90%;  
+}
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<Html>
+<link href="https://fonts.googleapis.com/css?family=Orbitron|Pacifico&display=swap" rel="stylesheet">
+  <header>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <h1 id="Title">Survey Form</h1>
+  </header><div class=center>
+    <font style="font-family: 'pacifico', sans-serif;">
+      <p id="description">Let us know what kind of ice-cream you want</p>
+    <form id="survey-form">
+      <label id="name-label" for="name"> Name: </label>
+    <input type="text" name="name" id="name" placeholder=" Enter your name" required>
+      <br>
+      <label id="email-label" for="email"> Email:</label>
+    <input type="text" name="email" id="email" placeholder=" Enter your email" required>
+      <br>
+      <label id="number-label" for="age"> Age:</label>
+    <input type="number" name="age" id="number" min=1 max=100 placeholder=" Enter your age" required>
+      <br>
+      <label for="currentPos" class=dropdown>Which flavor of ice cream is your favorite? </label>
+        <select id="dropdown" name="currentPos" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option value="Chocolate">Chocolate</option>
+      <option value="Vanilla">Vanilla</option>
+      <option value="Strawberry">Strawberry</option>
+      <option value="I don't like ice cream">I don't like ice cream</option>
+      <option value="other">Other</option>
+    </select>
+      <br>
+      <br>
+      <label for="userliking" class="size"> Which of the below flavors of ice cream do you like?</label>
+      <ul style="list-style: none;">
+          <li class="radio">
+            Pistachio
+              <input name="radio-buttons" value="1"  type="radio" class="userliking"></li>
+          <li class="radio"><label>
+            Cake batter
+            <input name="radio-buttons" value="2"  type="radio" class="userliking" ></label></li>
+          <li class="radio"><label>
+            Mint chocolate chip
+            <input name="radio-buttons" value="3"  type="radio" class="userliking" ></label></li>          <li class="radio"><label>
+        Rocky road
+        <input name="radio-buttons" value="3"  type="radio" class="userliking" ></label></li>          <li class="radio"><label>
+        Salted caramel
+        <input name="radio-buttons" value="3"  type="radio" class="userliking" ></label></li>
+        </ul>
+      <label for="brand" class="size">Which brand do you like the most?</label>
+<ul style="list-style-type:none;">       <li class="checkbox">
+  <label>Amul<input name="prefer" value="1" type="checkbox" class="userbrand"></label></li>
+         <li class="checkbox">Kwality Wall's<input name="prefer" value="2" type="checkbox" class="userbrand"></li>
+          <li class="checkbox">Baskin-Robbins<label><input name="prefer" value="3" type="checkbox" class="userbrand"></label></li>
+          <li class="checkbox">Vadilal<label><input name="prefer" value="4" type="checkbox" class="userbrand"></label></li>
+          <li class="checkbox">Havmor<label><input name="prefer" value="5" type="checkbox" class="userbrand"></label></li>
+           <li class="checkbox">Dinshaw's<label><input name="prefer" value="6" type="checkbox" class="userbrand"> </label></li>
+  <label for="comments">Any Comments or Suggestions?</label>
+  <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."></textarea><br>
+  <button id="submit" type="submit">Submit</button>
+<!-- partial -->
+  
+</body>
+</html>
